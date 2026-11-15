@@ -13,6 +13,48 @@ iocnt.net
 # VG Wort METIS — Zählpixel zur Textnutzungsmessung. Fire-and-forget-Pixel.
 met.vgwort.de
 
+# Webtrekk / Mapp Intelligence — deutsche Web-Analytics (Berlin), heute Teil von
+# Mapp. Reine Daten-Sammel-Hosts; die Firmenpräsenz liegt auf mapp.com, diese
+# Domains tragen keine Seitenfunktion. Am 2026-11-15 verifiziert (live):
+# webtrekk.net 212.5.8.39, wt-eu02.net 185.54.150.220, responder.wt-safetag.com
+# 185.54.150.22 → sicher blockbar.
+webtrekk.net
+wt-eu02.net
+wt-safetag.com
+
+# etracker — deutsche Web-Analytics (Hamburg). Nur der Mess-/Skript-Host, NICHT
+# die Firmenseite etracker.de. code.etracker.com am 2026-11-15 live (62.201.164.113).
+code.etracker.com
+
+# econda — deutsche Web-Analytics (Karlsruhe). econda-monitor.de ist die reine
+# Mess-/Sammeldomain, getrennt von der Firmenseite econda.de. Am 2026-11-15 live
+# (212.82.235.58) → sicher blockbar.
+econda-monitor.de
+
+# ─── Werbung / Ad-Tech (Deutschland) ────────────────────────────────────────
+# DACH-Ad-Netze, Ad-Server und DMPs deutscher Herkunft — reine Ausliefer-/
+# Tracking-Hosts ohne Seitenfunktion, international oft lückenhaft gelistet.
+# Alle am 2026-11-15 gegen einen öffentlichen Resolver live verifiziert.
+
+# Virtual Minds / ProSiebenSat.1-Ad-Stack: Yieldlab (SSP, Hamburg), ADITION
+# (Ad-Server, Freiburg), Active Agent (DSP), The ADEX (DMP).
+yieldlab.net
+adition.com
+activeagent.de
+theadex.com
+
+# nugg.ad — Targeting/Profiling (heute emetriq / Deutsche Post). Reiner Ad-Host.
+nugg.ad
+
+# Ströer adscale — SSP/Vermarkter-Netz. Reine Ad-Serving-Domain.
+adscale.de
+
+# InteractiveMedia (Deutsche Telekom) — Ad-Marketing/Auslieferung.
+interactivemedia.net
+
+# smartclip (RTL) — Video-Ad-Tech. Ausliefer-/Tracking-Hosts unter smartclip.net.
+smartclip.net
+
 # ─── Reichweitenmessung / Tracking (Österreich) ─────────────────────────────
 # ÖWA (Österreichische Webanalyse) — „Zählbox"-Beacon, der den Zählpixel auf
 # teilnehmenden AT-Medienseiten in Echtzeit auswertet. Domain am 2026-11-15
