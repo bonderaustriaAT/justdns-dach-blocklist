@@ -1,6 +1,6 @@
 # JustDNS DACH-Blockliste — Ergänzung für den DACH-Raum
 # Format: eine Domain pro Zeile. '#' = Kommentar. Subdomains sind mit abgedeckt.
-# Kuratierter Start-Seed — wird aus echtem Traffic erweitert und verifiziert.
+# Kuratierter Seed — aus echtem Traffic erweitert und einzeln verifiziert.
 # Stand: 2026-11-15
 
 # ─── Reichweitenmessung / Tracking (Deutschland) ────────────────────────────
@@ -13,10 +13,15 @@ iocnt.net
 # VG Wort METIS — Zählpixel zur Textnutzungsmessung. Fire-and-forget-Pixel.
 met.vgwort.de
 
-# ─── Noch zu verifizieren (gegen echten Traffic prüfen, dann aktivieren) ─────
-# ÖWA (Österreich) — Österreichische Webanalyse. Exakten Mess-Host im Protokoll
-# bestätigen, bevor aktiviert.
-# oewabox.at
-#
-# NET-Metrix (Schweiz) — Reichweitenmessung CH. Mess-Host bestätigen.
-# net-metrix.ch
+# ─── Reichweitenmessung / Tracking (Österreich) ─────────────────────────────
+# ÖWA (Österreichische Webanalyse) — „Zählbox"-Beacon, der den Zählpixel auf
+# teilnehmenden AT-Medienseiten in Echtzeit auswertet. Domain am 2026-11-15
+# verifiziert: löst live auf (AWS), reines Mess-Beacon ohne Seitenfunktion.
+oewabox.at
+
+# ─── Schweiz: aktuell nichts aufzunehmen ────────────────────────────────────
+# NET-Metrix (vormals CH-Reichweitenmessung) ist eingestellt — letzte Daten
+# Mitte 2020, Überführung in Mediapulse. net-metrix.ch löst nur noch als
+# Legacy/geparkt auf und ist kein aktiver Tracker, daher bewusst NICHT gelistet.
+# Die Mediapulse-Nachfolge misst seither per Befragung/Hochrechnung (Publicom),
+# also ohne flächendeckenden Pixel-Host, der sich sinnvoll blocken ließe.
