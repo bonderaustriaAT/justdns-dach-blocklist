@@ -1,0 +1,22 @@
+# JustDNS DACH-Blockliste — Ergänzung für den DACH-Raum
+# Format: eine Domain pro Zeile. '#' = Kommentar. Subdomains sind mit abgedeckt.
+# Kuratierter Start-Seed — wird aus echtem Traffic erweitert und verifiziert.
+# Stand: 2026-11-15
+
+# ─── Reichweitenmessung / Tracking (Deutschland) ────────────────────────────
+# INFOnline (SZMnG / IVW) — pseudonyme Reichweitenmessung, auf sehr vielen
+# deutschen Nachrichten- und Medienseiten. Reines Mess-Beacon, trägt keine
+# Seitenfunktion → sicher blockbar.
+ioam.de
+iocnt.net
+
+# VG Wort METIS — Zählpixel zur Textnutzungsmessung. Fire-and-forget-Pixel.
+met.vgwort.de
+
+# ─── Noch zu verifizieren (gegen echten Traffic prüfen, dann aktivieren) ─────
+# ÖWA (Österreich) — Österreichische Webanalyse. Exakten Mess-Host im Protokoll
+# bestätigen, bevor aktiviert.
+# oewabox.at
+#
+# NET-Metrix (Schweiz) — Reichweitenmessung CH. Mess-Host bestätigen.
+# net-metrix.ch
