@@ -8,7 +8,7 @@ schwächer oder gar nicht erfassen:
    (Deutschland, Österreich, Schweiz), die gängige Listen durchlassen.
 2. **Malware / C2 / Dropper:** Domains, von denen im JustDNS-Honeypot-Netz
    nachweislich Schadsoftware nachgeladen oder Command-and-Control-Verkehr
-   versucht wurde (beobachtet in echten Angreifer-Sessions, nicht geraten).
+   versucht wurde (beobachtet in echten Angreifer-Sessions).
 
 > **Keine Hagezi-Kopie.** Die Liste enthält bewusst nur das *Delta*. Betreibe
 > sie **zusätzlich** zu Hagezi Normal, nicht als Ersatz.
