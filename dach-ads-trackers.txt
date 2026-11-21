@@ -1,7 +1,7 @@
-# JustDNS DACH-Blockliste — Ergänzung für den DACH-Raum
+# JustDNS Blockliste: DACH-Delta (Ad/Tracking) + Malware/C2 aus dem Honeypot-Netz
 # Format: eine Domain pro Zeile. '#' = Kommentar. Subdomains sind mit abgedeckt.
-# Kuratierter Seed — aus echtem Traffic erweitert und einzeln verifiziert.
-# Stand: 2026-11-15
+# Kuratierter Seed, aus echten Quellen erweitert und vor Aufnahme geprueft.
+# Stand: 2026-11-21
 
 # ─── Reichweitenmessung / Tracking (Deutschland) ────────────────────────────
 # INFOnline (SZMnG / IVW) — pseudonyme Reichweitenmessung, auf sehr vielen
